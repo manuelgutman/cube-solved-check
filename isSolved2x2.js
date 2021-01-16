@@ -177,3 +177,4 @@ function isSolved2x2 (scramble = "", solution = "") {
     } return "Not Solved :("
 }
 
+//antonio kam
