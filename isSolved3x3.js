@@ -276,5 +276,3 @@ function isSolved3x3 (scramble = "", solution = "") {
         }
     } return "Not Solved :("
 }
-
-console.log(isSolved3x3("R", "R' U U'"))
