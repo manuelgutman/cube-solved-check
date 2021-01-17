@@ -154,21 +154,21 @@ function isSolved2x2 (scramble = "", solution = "") {
         x()
         let currentState = [cp, co]
         if (currentState.toString() == solvedState.toString()) {
-            return "Solved! your solution was " + moveCount + " moves."
+            return `Solved! your solution was ${moveCount} moves long.`
         }
         else {
             for (let i = 0; i<4; i++) {
                 y()
                 let currentState = [cp, co]
                 if (currentState.toString() == solvedState.toString()) {
-                    return "Solved! your solution was " + moveCount + " moves."
+                    return `Solved! your solution was ${moveCount} moves long.`
                 }
                 else {
                     for (let i = 0; i<4; i++) {
                         z()
                         let currentState = [cp, co]
                         if (currentState.toString() == solvedState.toString()) {
-                            return "Solved! your solution was " + moveCount + " moves."
+                            return `Solved! your solution was ${moveCount} moves long.`
                         }
                     }
                 }
@@ -177,4 +177,3 @@ function isSolved2x2 (scramble = "", solution = "") {
     } return "Not Solved :("
 }
 
-//antonio kam

@@ -254,21 +254,21 @@ function isSolved3x3 (scramble = "", solution = "") {
         x()
         let currentState = [cp, co, ep, ep, xp]
         if (currentState.toString() == solvedState.toString()) {
-            return "Solved! your solution was " + moveCount + " moves long."
+            return `Solved! your solution was ${moveCount} moves long.`
         }
         else {
             for (let i = 0; i<4; i++) {
                 y()
                 let currentState = [cp, co, ep, eo, xp]
                 if (currentState.toString() == solvedState.toString()) {
-                    return "Solved! your solution was " + moveCount + " moves long."
+                    return `Solved! your solution was ${moveCount} moves long.`
                 }
                 else {
                     for (let i = 0; i<4; i++) {
                         z()
                         let currentState = [cp, co, ep, eo, xp]
                         if (currentState.toString() == solvedState.toString()) {
-                            return "Solved! your solution was " + moveCount + " moves long."
+                            return `Solved! your solution was ${moveCount} moves long.`
                         }
                     }
                 }
@@ -277,3 +277,4 @@ function isSolved3x3 (scramble = "", solution = "") {
     } return "Not Solved :("
 }
 
+console.log(isSolved3x3("R", "R' U U'"))
