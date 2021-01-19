@@ -1,0 +1,48 @@
+#yellow-face {
+    background-color: yellow;
+    height: 100px; 
+    width: 100px;
+    position: absolute; 
+    top: 200px; 
+    left: 100px;
+}
+#white-face {
+    background-color: white; 
+    height: 100px; 
+    width: 100px; 
+    position: absolute; 
+    left: 100px;
+}
+#blue-face {
+    background-color: blue;
+    height: 100px; width: 100px; 
+    position: absolute; 
+    top: 100px; 
+    left: 300px;
+}
+#green-face {
+    background-color: green; 
+    height: 100px; 
+    width: 100px; 
+    position: absolute; 
+    top: 100px; 
+    left: 100px;
+}
+#red-face {
+    background-color: red; 
+    height: 100px; 
+    width: 100px; 
+    position: absolute; 
+    top: 100px; 
+    left: 200px;
+}
+#orange-face {
+    background-color: orange; 
+    height: 100px; 
+    width: 100px; 
+    position: absolute; 
+    top: 100px;
+}
+#body {
+    background: grey;
+}
